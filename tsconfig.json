@@ -9,7 +9,8 @@
     }
   },
   "include": [
-    "src"
+    "src",
+    "rollup.config.js"
   ],
   "exclude": [
     "node_modules"
