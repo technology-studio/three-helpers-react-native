@@ -12,7 +12,6 @@ import {
 import {
   Font,
 } from 'three-stdlib'
-// @ts-expect-error -- TODO: fix missing types
 import { Text } from 'troika-three-text'
 
 type FontData = (typeof Font)['prototype']['data']
