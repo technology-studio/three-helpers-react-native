@@ -33,6 +33,8 @@ class TTFGlyphLoader extends Loader {
       onError?.(new Error('Missing FontData JSON.') as unknown as ErrorEvent)
       return
     }
+    // TODO: remove when https://github.com/protectwise/troika/pull/273 is merged
+    /* eslint-disable @typescript-eslint/no-unsafe-assignment, @typescript-eslint/no-unsafe-argument, @typescript-eslint/no-unsafe-call, @typescript-eslint/no-unsafe-member-access */
     const textMesh = new Text()
     textMesh.text = character
     textMesh.font = new Font(this.json)
@@ -42,11 +44,13 @@ class TTFGlyphLoader extends Loader {
     textMesh.sync(() => {
       onLoad(textMesh)
     })
+    /* eslint-enable @typescript-eslint/no-unsafe-assignment, @typescript-eslint/no-unsafe-argument, @typescript-eslint/no-unsafe-call, @typescript-eslint/no-unsafe-member-access */
   }
 
   async loadAsync (): Promise<THREE.Mesh> {
     // @ts-expect-error -- `loadAsync` exists on Loader
-    return super.loadAsync()
+    // eslint-disable-next-line @typescript-eslint/no-unsafe-call, @typescript-eslint/return-await, @typescript-eslint/no-unsafe-return
+    return await super.loadAsync()
   }
 
   parse (mesh: THREE.Mesh): THREE.Mesh {
