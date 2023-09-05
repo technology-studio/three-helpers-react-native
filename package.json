@@ -49,7 +49,7 @@
     "@typescript-eslint/eslint-plugin": "^6.6.0",
     "@typescript-eslint/parser": "^6.6.0",
     "commitizen": "^4.3.0",
-    "concurrently": "^7.6.0",
+    "concurrently": "^8.2.1",
     "eslint": "^8.48.0",
     "eslint-config-txo-typescript-react": "^1.2.29",
     "eslint-formatter-pretty": "^5.0.0",
