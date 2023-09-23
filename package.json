@@ -82,7 +82,7 @@
     "semantic-release": "^22.0.4",
     "semantic-release-slack-bot": "^4.0.2",
     "three": "^0.156.0",
-    "three-stdlib": "^2.26.4",
+    "three-stdlib": "^2.26.5",
     "ts-jest": "^29.1.1",
     "typescript": "^5.2.2"
   },
