@@ -79,7 +79,7 @@
     "redux-saga": "^1.2.3",
     "rimraf": "^5.0.1",
     "rollup": "^3.29.3",
-    "semantic-release": "^22.0.4",
+    "semantic-release": "^22.0.5",
     "semantic-release-slack-bot": "^4.0.2",
     "three": "^0.156.0",
     "three-stdlib": "^2.26.6",
