@@ -1236,10 +1236,10 @@
   resolved "https://registry.yarnpkg.com/@react-spring/types/-/types-9.6.1.tgz#913d3a68c5cbc1124fdb18eff919432f7b6abdde"
   integrity sha512-POu8Mk0hIU3lRXB3bGIGe4VHIwwDsQyoD1F394OK7STTiX9w4dG3cTLljjYswkQN+hDSHRrj4O36kuVa7KPU8Q==
 
-"@react-three/drei@^9.85.1":
-  version "9.85.1"
-  resolved "https://registry.yarnpkg.com/@react-three/drei/-/drei-9.85.1.tgz#5ec262130078d50e9a2b4fd7bfaa507954b4e7ac"
-  integrity sha512-ORAlI2j8uIhaCwgWT5M1MuhYWrI/ELKxMMlj81BjfxS2EiADsjhyGtLqncz4ESL3BRH+lBS/6BQ5EL/I2t63Hw==
+"@react-three/drei@^9.86.0":
+  version "9.86.0"
+  resolved "https://registry.yarnpkg.com/@react-three/drei/-/drei-9.86.0.tgz#aad033774c414105b72ef02df7a7d140942e7fc3"
+  integrity sha512-7QfieQwDe8zgLbGtr/rdusj/zQQXK0D8yA0U+bv+VJZrTtXEl1fYJtHxsxWcS95N+sgff5k6QyxwCUy2q3bHCg==
   dependencies:
     "@babel/runtime" "^7.11.2"
     "@mediapipe/tasks-vision" "0.10.2"
@@ -8303,10 +8303,10 @@ rimraf@^5.0.5:
   dependencies:
     glob "^10.3.7"
 
-rollup@^3.29.3:
-  version "3.29.3"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-3.29.3.tgz#97769774ccaa6a3059083d4680fcabd8ead01289"
-  integrity sha512-T7du6Hum8jOkSWetjRgbwpM6Sy0nECYrYRSmZjayFcOddtKJWU4d17AC3HNUk7HRuqy4p+G7aEZclSHytqUmEg==
+rollup@^3.29.4:
+  version "3.29.4"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-3.29.4.tgz#4d70c0f9834146df8705bfb69a9a19c9e1109981"
+  integrity sha512-oWzmBZwvYrU0iJHtDmhsm662rC15FRXmcjCk1xD771dFDx5jJ02ufAQQTn0etB2emNk4J9EZg/yWKpsn9BWGRw==
   optionalDependencies:
     fsevents "~2.3.2"
 
@@ -9033,10 +9033,10 @@ three-stdlib@^2.26.6:
     potpack "^1.0.1"
     zstddec "^0.0.2"
 
-three-stdlib@^2.26.8:
-  version "2.26.8"
-  resolved "https://registry.yarnpkg.com/three-stdlib/-/three-stdlib-2.26.8.tgz#d0a3dcf6fd0529cf2bbda07cba7531f1f12ef5da"
-  integrity sha512-KcGnIe60APle51lzHJdRPuN2O0HvawBKq3Fd9KNk/ImISxVlI7m+LBYoFN5rki9RV2vi5wDDvrMUgVCR/jhVxw==
+three-stdlib@^2.26.9:
+  version "2.26.9"
+  resolved "https://registry.yarnpkg.com/three-stdlib/-/three-stdlib-2.26.9.tgz#ab0d65ed71ac166eb7fbc057d63dbe258f615533"
+  integrity sha512-DoZDpcm5VhFRUn5BD3IzH8+x6ZlGrop3TxSr07PowijH4hPP5jjC/f+LQXOuCF9EkbhzittG8f23OCaBFqmQzQ==
   dependencies:
     "@types/draco3d" "^1.4.0"
     "@types/offscreencanvas" "^2019.6.4"
