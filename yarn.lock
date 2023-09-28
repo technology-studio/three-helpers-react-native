@@ -9045,10 +9045,10 @@ three-stdlib@^2.26.6:
     potpack "^1.0.1"
     zstddec "^0.0.2"
 
-three-stdlib@^2.26.8:
-  version "2.26.8"
-  resolved "https://registry.yarnpkg.com/three-stdlib/-/three-stdlib-2.26.8.tgz#d0a3dcf6fd0529cf2bbda07cba7531f1f12ef5da"
-  integrity sha512-KcGnIe60APle51lzHJdRPuN2O0HvawBKq3Fd9KNk/ImISxVlI7m+LBYoFN5rki9RV2vi5wDDvrMUgVCR/jhVxw==
+three-stdlib@^2.26.9:
+  version "2.26.9"
+  resolved "https://registry.yarnpkg.com/three-stdlib/-/three-stdlib-2.26.9.tgz#ab0d65ed71ac166eb7fbc057d63dbe258f615533"
+  integrity sha512-DoZDpcm5VhFRUn5BD3IzH8+x6ZlGrop3TxSr07PowijH4hPP5jjC/f+LQXOuCF9EkbhzittG8f23OCaBFqmQzQ==
   dependencies:
     "@types/draco3d" "^1.4.0"
     "@types/offscreencanvas" "^2019.6.4"
