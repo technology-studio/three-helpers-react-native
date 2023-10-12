@@ -41,7 +41,7 @@
     "@commitlint/cli": "^17.7.2",
     "@commitlint/config-conventional": "^17.7.0",
     "@microsoft/api-extractor": "^7.38.0",
-    "@react-three/drei": "^9.88.0",
+    "@react-three/drei": "^9.88.2",
     "@react-three/fiber": "^8.14.5",
     "@rollup/plugin-commonjs": "^25.0.5",
     "@rollup/plugin-node-resolve": "^15.2.3",
