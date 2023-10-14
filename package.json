@@ -38,8 +38,8 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@commitlint/cli": "^17.7.2",
-    "@commitlint/config-conventional": "^17.7.0",
+    "@commitlint/cli": "^17.8.0",
+    "@commitlint/config-conventional": "^17.8.0",
     "@microsoft/api-extractor": "^7.38.0",
     "@react-three/drei": "^9.88.2",
     "@react-three/fiber": "^8.14.5",
