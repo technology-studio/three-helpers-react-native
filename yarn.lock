@@ -1319,14 +1319,16 @@
     uuid "^9.0.1"
     zustand "^3.5.13"
 
-"@react-three/fiber@^8.14.6":
-  version "8.14.6"
-  resolved "https://registry.yarnpkg.com/@react-three/fiber/-/fiber-8.14.6.tgz#963fa93b47695f6fee68e9fb563062428d6f1c73"
-  integrity sha512-w+9+CqFxYu1QPe2ZjitIdS5sns+Ow/MIqBnUDQ9x9JRcgql7sTbjFvXbR4gSeb0RWd+WCyGpGueRMJFPNbUUdA==
+"@react-three/fiber@^8.15.1":
+  version "8.15.1"
+  resolved "https://registry.yarnpkg.com/@react-three/fiber/-/fiber-8.15.1.tgz#65dc66d14ea01c04ebf1e9e8ddebf42982c568a6"
+  integrity sha512-fHddFGKM23Iiz/7Z/2cVsU7/Mi8/Pr72aIxskWFKY+95NOmQ6x0zzorKoSBk71WhtMN+rMvw+5H+Q5P3+NwxYw==
   dependencies:
     "@babel/runtime" "^7.17.8"
     "@types/react-reconciler" "^0.26.7"
+    "@types/webxr" "*"
     base64-js "^1.5.1"
+    buffer "^6.0.3"
     its-fine "^1.0.6"
     react-reconciler "^0.27.0"
     react-use-measure "^2.1.1"
