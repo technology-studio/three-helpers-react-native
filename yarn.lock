@@ -1412,7 +1412,7 @@
     "@rollup/pluginutils" "^5.0.1"
     sucrase "^3.27.0"
 
-"@rollup/plugin-typescript@^11.1.4":
+"@rollup/plugin-typescript@^11.1.5":
   version "11.1.5"
   resolved "https://registry.yarnpkg.com/@rollup/plugin-typescript/-/plugin-typescript-11.1.5.tgz#039c763bf943a5921f3f42be255895e75764cb91"
   integrity sha512-rnMHrGBB0IUEv69Q8/JGRD/n4/n6b3nfpufUu26axhUcboUzv/twfZU8fIBbTOphRAe0v8EyxzeDpKXqGHfyDA==
