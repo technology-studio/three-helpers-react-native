@@ -9194,10 +9194,10 @@ three-stdlib@^2.28.0:
     fflate "^0.6.9"
     potpack "^1.0.1"
 
-three-stdlib@^2.28.1:
-  version "2.28.1"
-  resolved "https://registry.yarnpkg.com/three-stdlib/-/three-stdlib-2.28.1.tgz#c3a5bcb8ba9ff04c429f689744e696f283a005ba"
-  integrity sha512-JCfuJJH11DYicydWAikLMxTYk0o9thA6GwO6VORqYPR/5jRH7HK0Nx7+Hyq8AGo9Ithm6BMjxHsI1Tpbhn3ofw==
+three-stdlib@^2.28.2:
+  version "2.28.2"
+  resolved "https://registry.yarnpkg.com/three-stdlib/-/three-stdlib-2.28.2.tgz#f62707972705454e42aeb4adf1e53ecbf05e15bf"
+  integrity sha512-GBzxup9a67WXH1ikoCqoMuURS4pUo2gy8f6DgjXDEMAbLqWQ7MrGtbl1jjnb6PCqo7z3Q8blTYDhfeRtdzXANA==
   dependencies:
     "@types/draco3d" "^1.4.0"
     "@types/offscreencanvas" "^2019.6.4"
