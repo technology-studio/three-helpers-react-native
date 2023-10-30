@@ -16,7 +16,7 @@ import { Text } from 'troika-three-text'
 
 type FontData = (typeof Font)['prototype']['data']
 
-class TTFGlyphLoader extends Loader {
+class TTFGlyphLoader extends Loader<THREE.Mesh> {
   json: FontData | null
   constructor (manager: LoadingManager | undefined) {
     super(manager)
@@ -25,7 +25,7 @@ class TTFGlyphLoader extends Loader {
 
   load (
     character: string,
-    onLoad: (mesh: THREE.Mesh) => void,
+    onLoad?: (mesh: THREE.Mesh) => void,
     onProgress?: (event: ProgressEvent) => void,
     onError?: (event: ErrorEvent) => void,
   ): void {
@@ -42,15 +42,16 @@ class TTFGlyphLoader extends Loader {
     textMesh.depthOffset = 2
     textMesh.sdfGlyphSize = 0
     textMesh.sync(() => {
-      onLoad(textMesh)
+      onLoad?.(textMesh)
     })
     /* eslint-enable @typescript-eslint/no-unsafe-assignment, @typescript-eslint/no-unsafe-argument, @typescript-eslint/no-unsafe-call, @typescript-eslint/no-unsafe-member-access */
   }
 
-  async loadAsync (): Promise<THREE.Mesh> {
-    // @ts-expect-error -- `loadAsync` exists on Loader
-    // eslint-disable-next-line @typescript-eslint/no-unsafe-call, @typescript-eslint/return-await, @typescript-eslint/no-unsafe-return
-    return await super.loadAsync()
+  async loadAsync (
+    character: string,
+    onProgress?: (event: ProgressEvent) => void,
+  ): Promise<THREE.Mesh> {
+    return await super.loadAsync(character, onProgress)
   }
 
   parse (mesh: THREE.Mesh): THREE.Mesh {
