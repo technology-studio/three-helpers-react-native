@@ -51,7 +51,7 @@
     "@txo/semantic-release": "^1.0.2",
     "@types/jest": "^29.5.7",
     "@types/react": "^18.2.36",
-    "@types/three": "^0.158.1",
+    "@types/three": "^0.158.2",
     "@typescript-eslint/eslint-plugin": "^6.9.0",
     "@typescript-eslint/parser": "^6.9.0",
     "concurrently": "^8.2.2",
