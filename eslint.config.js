@@ -7,6 +7,7 @@ const config = [
     ignores: [
       'src/types',
       'src/index.d.ts',
+      'rollup.config.js',
     ],
   },
 ]
