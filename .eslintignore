@@ -1,6 +1,0 @@
-commitlint.config.js
-jest.config.js
-lib
-release.config.js
-src/types
-src/index.d.ts
