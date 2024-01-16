@@ -1300,10 +1300,10 @@
   resolved "https://registry.yarnpkg.com/@react-spring/types/-/types-9.6.1.tgz#913d3a68c5cbc1124fdb18eff919432f7b6abdde"
   integrity sha512-POu8Mk0hIU3lRXB3bGIGe4VHIwwDsQyoD1F394OK7STTiX9w4dG3cTLljjYswkQN+hDSHRrj4O36kuVa7KPU8Q==
 
-"@react-three/drei@^9.93.1":
-  version "9.93.1"
-  resolved "https://registry.yarnpkg.com/@react-three/drei/-/drei-9.93.1.tgz#5f38c3dfc7c34a6fca4abca41d626f9c35cec386"
-  integrity sha512-NjFH/Drq7nhbFhfmvsUeQ9LatCgau6qLkGDM45cckpECz0fzPX4qMpQuBqkZWcM4QEYGuf0IIIxTD5lBe30FFA==
+"@react-three/drei@^9.94.1":
+  version "9.94.1"
+  resolved "https://registry.yarnpkg.com/@react-three/drei/-/drei-9.94.1.tgz#48c301c56ba950cc74b60919919c0402bd44c1d2"
+  integrity sha512-p/DHmpBGqQ6l0GiJmQqFASaFPB+AZ/rrUI96sKuZsVQtMS6QjWAENQHNi0V4sljIaV9Rk1oT1RDLeVe9mozsPw==
   dependencies:
     "@babel/runtime" "^7.11.2"
     "@mediapipe/tasks-vision" "0.10.8"
@@ -1326,9 +1326,10 @@
     three-mesh-bvh "^0.6.7"
     three-stdlib "^2.28.0"
     troika-three-text "^0.47.2"
+    tunnel-rat "^0.1.2"
     utility-types "^3.10.0"
     uuid "^9.0.1"
-    zustand "^3.5.13"
+    zustand "^3.7.1"
 
 "@react-three/fiber@^8.15.14":
   version "8.15.14"
@@ -9495,6 +9496,13 @@ tuf-js@^2.1.0:
     debug "^4.3.4"
     make-fetch-happen "^13.0.0"
 
+tunnel-rat@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/tunnel-rat/-/tunnel-rat-0.1.2.tgz#1717efbc474ea2d8aa05a91622457a6e201c0aeb"
+  integrity sha512-lR5VHmkPhzdhrM092lI2nACsLO4QubF0/yoOhzX7c+wIpbN1GjHNzCc91QlpxBi+cnx8vVJ+Ur6vL5cEoQPFpQ==
+  dependencies:
+    zustand "^4.3.2"
+
 type-check@^0.4.0, type-check@~0.4.0:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/type-check/-/type-check-0.4.0.tgz#07b8203bfa7056c0657050e3ccd2c37730bab8f1"
@@ -9780,6 +9788,11 @@ url-join@^5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/url-join/-/url-join-5.0.0.tgz#c2f1e5cbd95fa91082a93b58a1f42fecb4bdbcf1"
   integrity sha512-n2huDr9h9yzd6exQVnH/jU5mr+Pfx08LRXXZhkLLetAMESRj+anQsTAh940iMrIetKAmry9coFuZQ2jY8/p3WA==
+
+use-sync-external-store@1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/use-sync-external-store/-/use-sync-external-store-1.2.0.tgz#7dbefd6ef3fe4e767a0cf5d7287aacfb5846928a"
+  integrity sha512-eEgnFxGQ1Ife9bzYs6VLi8/4X6CObHMw9Qr9tPY43iKwsPw8xE8+EFsf/2cFZ5S3esXgpWgtSCtLNS41F+sKPA==
 
 util-deprecate@^1.0.1, util-deprecate@^1.0.2, util-deprecate@~1.0.1:
   version "1.0.2"
@@ -10129,10 +10142,17 @@ z-schema@~5.0.2:
   optionalDependencies:
     commander "^10.0.0"
 
-zustand@^3.5.13, zustand@^3.7.1:
+zustand@^3.7.1:
   version "3.7.2"
   resolved "https://registry.yarnpkg.com/zustand/-/zustand-3.7.2.tgz#7b44c4f4a5bfd7a8296a3957b13e1c346f42514d"
   integrity sha512-PIJDIZKtokhof+9+60cpockVOq05sJzHCriyvaLBmEJixseQ1a5Kdov6fWZfWOu5SK9c+FhH1jU0tntLxRJYMA==
+
+zustand@^4.3.2:
+  version "4.4.7"
+  resolved "https://registry.yarnpkg.com/zustand/-/zustand-4.4.7.tgz#355406be6b11ab335f59a66d2cf9815e8f24038c"
+  integrity sha512-QFJWJMdlETcI69paJwhSMJz7PPWjVP8Sjhclxmxmxv/RYI7ZOvR5BHX+ktH0we9gTWQMxcne8q1OY8xxz604gw==
+  dependencies:
+    use-sync-external-store "1.2.0"
 
 zwitch@^1.0.0:
   version "1.0.5"
