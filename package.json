@@ -40,7 +40,7 @@
   "devDependencies": {
     "@microsoft/api-extractor": "^7.39.4",
     "@react-three/drei": "^9.97.0",
-    "@react-three/fiber": "^8.15.15",
+    "@react-three/fiber": "^8.15.16",
     "@rollup/plugin-commonjs": "^25.0.7",
     "@rollup/plugin-node-resolve": "^15.2.3",
     "@rollup/plugin-sucrase": "^5.0.2",
