@@ -38,7 +38,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@microsoft/api-extractor": "^7.41.1",
+    "@microsoft/api-extractor": "^7.42.0",
     "@react-three/drei": "^9.99.4",
     "@react-three/fiber": "^8.15.16",
     "@rollup/plugin-commonjs": "^25.0.7",
