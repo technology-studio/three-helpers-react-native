@@ -52,7 +52,7 @@
     "@txo/tsconfig": "^1.1.1",
     "@types/jest": "^29.5.12",
     "@types/react": "^18.2.78",
-    "@types/three": "^0.161.2",
+    "@types/three": "^0.163.0",
     "concurrently": "^8.2.2",
     "eslint-config-txo-typescript-react": "^2.0.52",
     "husky": "^8.0.3",
@@ -64,7 +64,7 @@
     "redux-saga": "^1.3.0",
     "rimraf": "^5.0.5",
     "rollup": "^4.14.3",
-    "three": "^0.161.0",
+    "three": "^0.163.0",
     "three-stdlib": "^2.29.6",
     "ts-jest": "^29.1.2",
     "typescript": "^5.4.5"
