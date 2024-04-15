@@ -63,7 +63,7 @@
     "react-dom": "^18.2.0",
     "redux-saga": "^1.3.0",
     "rimraf": "^5.0.5",
-    "rollup": "^4.14.2",
+    "rollup": "^4.14.3",
     "three": "^0.161.0",
     "three-stdlib": "^2.29.6",
     "ts-jest": "^29.1.2",
