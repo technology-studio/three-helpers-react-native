@@ -8,6 +8,7 @@ import { useLoader } from '@react-three/fiber'
 import {
   Loader,
   type LoadingManager,
+  type Mesh,
 } from 'three'
 import {
   Font,
@@ -16,7 +17,7 @@ import { Text } from 'troika-three-text'
 
 type FontData = (typeof Font)['prototype']['data']
 
-class TTFGlyphLoader extends Loader<THREE.Mesh> {
+class TTFGlyphLoader extends Loader<Mesh> {
   json: FontData | null
   constructor (manager: LoadingManager | undefined) {
     super(manager)
@@ -25,7 +26,7 @@ class TTFGlyphLoader extends Loader<THREE.Mesh> {
 
   load (
     character: string,
-    onLoad?: (mesh: THREE.Mesh) => void,
+    onLoad?: (mesh: Mesh) => void,
     onProgress?: (event: ProgressEvent) => void,
     onError?: (event: ErrorEvent) => void,
   ): void {
@@ -50,11 +51,11 @@ class TTFGlyphLoader extends Loader<THREE.Mesh> {
   async loadAsync (
     character: string,
     onProgress?: (event: ProgressEvent) => void,
-  ): Promise<THREE.Mesh> {
+  ): Promise<Mesh> {
     return await super.loadAsync(character, onProgress)
   }
 
-  parse (mesh: THREE.Mesh): THREE.Mesh {
+  parse (mesh: Mesh): Mesh {
     return mesh
   }
 
@@ -68,7 +69,7 @@ const extensionsFactory = (json: FontData) =>
     (loader as TTFGlyphLoader).setJson(json)
   }
 
-export const useTTFGlyph = (character: string, json: FontData): THREE.Mesh => {
+export const useTTFGlyph = (character: string, json: FontData): Mesh => {
   const mesh = useLoader(TTFGlyphLoader, character, extensionsFactory(json))
   return mesh
 }
