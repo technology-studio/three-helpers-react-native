@@ -44,7 +44,7 @@
     "@react-three/drei": "^9.113.0",
     "@react-three/fiber": "^8.17.8",
     "@rollup/plugin-commonjs": "^26.0.3",
-    "@rollup/plugin-node-resolve": "^15.2.4",
+    "@rollup/plugin-node-resolve": "^15.3.0",
     "@rollup/plugin-sucrase": "^5.0.2",
     "@rollup/plugin-typescript": "^11.1.6",
     "@txo-peer-dep/log": "^4.0.4",
