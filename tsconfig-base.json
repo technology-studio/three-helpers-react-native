@@ -3,5 +3,5 @@
     "lib": ["esnext", "dom"],
     "skipLibCheck": true
   },
-  "extends": "@txo/tsconfig"
+  "extends": "@txo/tsconfig-cjs"
 }
