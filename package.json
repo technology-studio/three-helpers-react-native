@@ -67,7 +67,7 @@
     "rimraf": "^6.0.1",
     "rollup": "^4.30.1",
     "three": "^0.172.0",
-    "three-stdlib": "^2.35.2",
+    "three-stdlib": "^2.35.6",
     "ts-jest": "^29.2.5",
     "typescript": "^5.7.2"
   },
