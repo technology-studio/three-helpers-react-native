@@ -1,0 +1,7 @@
+[
+  "@stylistic/space-before-function-paren",
+  "@typescript-eslint/no-unsafe-type-assertion",
+  "eslint-comments/require-description",
+  "@typescript-eslint/no-magic-numbers",
+  "@typescript-eslint/class-methods-use-this"
+]
