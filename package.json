@@ -69,7 +69,7 @@
     "three": "^0.175.0",
     "three-stdlib": "^2.35.14",
     "ts-jest": "^29.3.1",
-    "typescript": "^5.8.2"
+    "typescript": "^5.8.3"
   },
   "peerDependencies": {
     "@react-three/fiber": "*",
