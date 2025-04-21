@@ -837,10 +837,10 @@
     "@microsoft/tsdoc-config" "~0.17.1"
     "@rushstack/node-core-library" "5.13.0"
 
-"@microsoft/api-extractor@^7.52.4":
-  version "7.52.4"
-  resolved "https://registry.yarnpkg.com/@microsoft/api-extractor/-/api-extractor-7.52.4.tgz#2ed9bd80bab9104e4e0180947d4f73423ee8e38b"
-  integrity sha512-mIEcqgx877CFwNrTuCdPnlIGak8FjlayZb8sSBwWXX+i4gxkZRpMsb5BQcFW3v1puuJB3jYMqQ08kyAc4Vldhw==
+"@microsoft/api-extractor@^7.52.5":
+  version "7.52.5"
+  resolved "https://registry.yarnpkg.com/@microsoft/api-extractor/-/api-extractor-7.52.5.tgz#98171fc92609ffbf3960e2b1e0d3d42c446af876"
+  integrity sha512-6WWgjjg6FkoDWpF/O3sjB05OkszpI5wtKJqd8fUIR/JJUv8IqNCGr1lJUZJnc1HegcT9gAvyf98KfH0wFncU0w==
   dependencies:
     "@microsoft/api-extractor-model" "7.30.5"
     "@microsoft/tsdoc" "~0.15.1"
@@ -848,7 +848,7 @@
     "@rushstack/node-core-library" "5.13.0"
     "@rushstack/rig-package" "0.5.3"
     "@rushstack/terminal" "0.15.2"
-    "@rushstack/ts-command-line" "4.23.7"
+    "@rushstack/ts-command-line" "5.0.0"
     lodash "~4.17.15"
     minimatch "~3.0.3"
     resolve "~1.22.1"
@@ -1508,10 +1508,10 @@
     "@rushstack/node-core-library" "5.13.0"
     supports-color "~8.1.1"
 
-"@rushstack/ts-command-line@4.23.7":
-  version "4.23.7"
-  resolved "https://registry.yarnpkg.com/@rushstack/ts-command-line/-/ts-command-line-4.23.7.tgz#9c6f05a00f776c7b8ea3321e2b5a03acc5e9efa8"
-  integrity sha512-Gr9cB7DGe6uz5vq2wdr89WbVDKz0UeuFEn5H2CfWDe7JvjFFaiV15gi6mqDBTbHhHCWS7w8mF1h3BnIfUndqdA==
+"@rushstack/ts-command-line@5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@rushstack/ts-command-line/-/ts-command-line-5.0.0.tgz#617073fd388008992145144d14b023e4fab01bbb"
+  integrity sha512-SW6nqZVxH26Rxz25+lJQRlnXI/YCrNH7NfDEWPPm9i0rwkSE6Rgtmzw96cuZgQjacOh0sw77d6V4SvgarAfr8g==
   dependencies:
     "@rushstack/terminal" "0.15.2"
     "@types/argparse" "1.0.38"
