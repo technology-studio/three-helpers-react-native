@@ -68,7 +68,7 @@
     "rollup": "^4.40.2",
     "three": "^0.176.0",
     "three-stdlib": "^2.36.0",
-    "ts-jest": "^29.3.3",
+    "ts-jest": "^29.3.4",
     "typescript": "^5.8.3"
   },
   "peerDependencies": {
