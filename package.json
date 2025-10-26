@@ -45,7 +45,7 @@
     "@rollup/plugin-commonjs": "^28.0.8",
     "@rollup/plugin-node-resolve": "^16.0.3",
     "@rollup/plugin-sucrase": "^5.0.2",
-    "@rollup/plugin-typescript": "^12.2.0",
+    "@rollup/plugin-typescript": "^12.3.0",
     "@txo-peer-dep/log": "^4.0.4",
     "@txo/commitlint": "^1.0.24",
     "@txo/log-console": "^3.0.0",
