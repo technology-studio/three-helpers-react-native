@@ -852,7 +852,7 @@
     "@microsoft/tsdoc-config" "~0.17.1"
     "@rushstack/node-core-library" "5.18.0"
 
-"@microsoft/api-extractor@^7.53.2":
+"@microsoft/api-extractor@^7.53.3":
   version "7.53.3"
   resolved "https://registry.yarnpkg.com/@microsoft/api-extractor/-/api-extractor-7.53.3.tgz#d0461e716e998b9b60bf4db2a09e7370625d29cb"
   integrity sha512-p2HmQaMSVqMBj3bH3643f8xApKAqrF1jNpPsMCTQOYCYgfwLnvzsve8c+bgBWzCOBBgLK54PB6ZLIWMGLg8CZA==
