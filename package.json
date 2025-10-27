@@ -42,7 +42,7 @@
     "@microsoft/api-extractor": "^7.53.3",
     "@react-three/drei": "^9.122.0",
     "@react-three/fiber": "^8.18.0",
-    "@rollup/plugin-commonjs": "^28.0.8",
+    "@rollup/plugin-commonjs": "^28.0.9",
     "@rollup/plugin-node-resolve": "^16.0.3",
     "@rollup/plugin-sucrase": "^5.0.2",
     "@rollup/plugin-typescript": "^12.3.0",
