@@ -7666,7 +7666,7 @@ rimraf@^6.1.2:
     glob "^13.0.0"
     package-json-from-dist "^1.0.1"
 
-rollup@^4.57.0:
+rollup@^4.57.1:
   version "4.59.0"
   resolved "https://registry.yarnpkg.com/rollup/-/rollup-4.59.0.tgz#cf74edac17c1486f562d728a4d923a694abdf06f"
   integrity sha512-2oMpl67a3zCH9H79LeMcbDhXW/UmWG/y2zuqnF2jQq5uq9TbM9TVyXvA4+t+ne2IIkBdrLpAaRQAvo7YI/Yyeg==
