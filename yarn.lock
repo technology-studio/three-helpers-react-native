@@ -1810,7 +1810,7 @@
   resolved "https://registry.yarnpkg.com/@txo/log-console/-/log-console-3.0.0.tgz#56506a8c6afea9109301ff96520c43815814022d"
   integrity sha512-Dl7dnPMUXRr1JSBysUmzT9/RjMm9FWJdtZ9CXVnh9K4qwpT4fnjDV+GWiHHWAqob47XcE7N98M8rShGmpsukqg==
 
-"@txo/semantic-release@^2.0.15":
+"@txo/semantic-release@^2.1.1":
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/@txo/semantic-release/-/semantic-release-2.1.1.tgz#c3f224bc71b6509feb205aadd2d3bdd9d8ded29e"
   integrity sha512-Mih1wQv3/axPpStrRdVvn2ObsSXMv28Y+T2Kt0pidoi1MVVlZJl5jUXcFtCbKBrdrMc/1ywFvMxfSw1R4JVaKQ==
